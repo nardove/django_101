@@ -27,9 +27,9 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = os.environ.get("DEBUG_VALUE")
 
 ALLOWED_HOSTS = [
+    "https://ricardosdjangoblog.herokuapp.com/",
     "localhost",
     "http://127.0.0.1/",
-    "https://ricardosdjangoblog.herokuapp.com/",
 ]
 
 
